@@ -2,10 +2,9 @@ const express = require("express");
 const http = require("http");
 const cors = require("cors");
 const { Server } = require("socket.io");
-require("dotenv").config();
 
 const PORT = 3400;
-const client = process.env.CLIENT || "http://localhost:5173";
+const client = "https://chat-sphere-pink.vercel.app";
 const app = express();
 const server = http.createServer(app);
 
