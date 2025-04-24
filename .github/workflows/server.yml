@@ -1,0 +1,14 @@
+name: Activate Server
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  createRequest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Make a curl request
+        run: curl -X GET ${{ secrets.SERVER }}
