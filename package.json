@@ -1,0 +1,26 @@
+{
+  "name": "chatspherebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzanamiiDevv/ChatSphereBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IzanamiiDevv/ChatSphereBackend/issues"
+  },
+  "homepage": "https://github.com/IzanamiiDevv/ChatSphereBackend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
